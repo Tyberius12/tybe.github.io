@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media screen and (max-width: 600px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            .flex-container img {
+                width: 100%;
+                height: auto;
+            }
+            .flex-container .cap1 {
+                text-align: center;
+            }
+            .main1 {
+                display: none;
+            }
+            .chef {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body class="wholebody">
+    <!-- Header section -->
+    <header>
+        <h1 class="number1">Recipe Book</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Submit Recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main section -->
+    <main>
+        <div class="container">
+            <div class="main1">
+                <img src="louis-hansel-wXkGvQJWI-Y-unsplash.jpg" alt="">
+            </div>
+            <h2 class="h2">Featured Recipes</h2>
+            <div class="flex-container">
+                <img class="img1" src="grilled chicken.jpg" alt="grilled Chicken">
+                <div class="cap1">grilled chicken</div>
+
+                <img  class="img2" src="spaghetti.jpg" alt="spghetti carbona">
+                <div class="cap1">spaghetti carbona</div>
+                <img class="img3" src="salad.jpg" alt="a salad">
+                <div class="cap1">A fruit salad</div>
+                <img class="img4" src="lamb chops.jpg" alt="lamb chops">
+                <div class="cap1">lamb chops</div>
+            </div>
+            <section>
+                <div class="mainbody"><p>
+                    <img class="signatue" src="sign.jpg" alt="our signature dish">
+                  </div>
+
+                  <p> <h4>RECOMMENDED FOR YOU</h4></p>
+                  <section class="sec1">
+                  <div class="flex-container">
+                    <img class="img5" src="cakes.jpg" alt="dried fig cakes">
+                    <div class="cap1">Dried fig cakes</div>
+                    <img class="img6" src="chipo.jpg" alt="Deep fried chips">
+                    <div class="cap1">Deep fried chips</div>
+                    <img class="img7" src="chipo.jpg" alt="french fries">
+                    <div class="cap1">French fries</div>
+                    <img class="img8" src="shrips.jpg" alt="Shrimps">
+                    <div class="cap1">Fried Shrimps</div>
+                  </div>
+                </section>
+            </div>
+            </div>
+        </div>
+    </main>
+    <!-- Staff section -->
+    <div>
+        <img class="chef" src="a chef.jpg" alt="OUR STAFF">
+
+        <h4 class="story">OUR STORY</h4>
+        <p class="body">
+            We are a reknowned restaurant in the capital offering high end services. Starting as an onine food store, we have come a long way to know all that partakes to service. Our staffs culinary skills are top notch and above reproach.
+        </p>
+    </div>
+    <!-- Social media section -->
+    <p>
+        <section class="sec1">
+            <h5 class="h5">FOLLOW US ON SOCIAL MEDIA</h5>
+            <div class="flex-container">
+                <img class="img9" src="whatsap.jpg" alt="whatsap icon">
+                <div class="cap1">@0745196984</div>
+                <img class="img10" src="tiktok.jpg" alt="tiktok icon">
+                <div class="cap1">@ICONICFOODMART</div>
+                <img class="img11" src="instagram.jpg" alt="instagram app icon">
+                <div class="cap1">@iconic_foodmart</div>
+                <img class="img12" src="twitter.jpg" alt="Twitter app icon">
+                <div class="cap1">@iconicfoodmartofficial</div>
+            </div>
+        </section>
+    </p>
+    <!-- Footer section -->
+    <footer>
+        &copy;IconicFoodMart
+    </footer>
+</body>
+</html>
